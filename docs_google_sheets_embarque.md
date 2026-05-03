@@ -2,6 +2,8 @@
 
 ## 1) Estructura del archivo en Google Sheets
 
+Formato de fecha recomendado en toda la solución: **DD-MM-YYYY**.
+
 Crea un Google Sheets con estas hojas:
 
 ### Hoja: `embarques`
@@ -15,13 +17,13 @@ Encabezados sugeridos (fila 1):
 - `cliente`
 - `origen`
 - `puerto_origen`
-- `fecha_llegada_puerto` (YYYY-MM-DD)
+- `fecha_llegada_puerto` (DD-MM-YYYY)
 - `buque`
-- `fecha_embarque` (YYYY-MM-DD)
+- `fecha_embarque` (DD-MM-YYYY)
 - `puerto_transbordo`
-- `fecha_transbordo` (YYYY-MM-DD)
+- `fecha_transbordo` (DD-MM-YYYY)
 - `puerto_destino`
-- `eta_destino` (YYYY-MM-DD)
+- `eta_destino` (DD-MM-YYYY)
 - `estado_actual`
 - `ultima_actualizacion`
 - `notas`
